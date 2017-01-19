@@ -245,7 +245,7 @@
 		            	"detailsURL"    : "http://ot4i.github.io/kafka-tutorial/en/details.html",
 		            	"stepsURL"      : "http://ot4i.github.io/kafka-tutorial/en/steps.html",
 				"zipURL" 	: "https://github.com/ot4i/kafka-tutorial/releases/download/v1.0/KafkaTutorial.zip",
-				"barFile"       : "<workspace>/TestModeBarFiles/KafkaProducerApplicationproject.TestMode.bar",
+				"barFile"       : "",
 				"visible"	: "true",
 				"tags"	: "kafka",
 				"isPattern"	: "false",
@@ -253,8 +253,8 @@
 				"projects"	: "KafkaProducerApplication:KafkaConsumerApplication",
 				"editorResPaths": [
 							{
-							"id" : "KafkaProducerFlow",
-							"editor" : "flow",
+							"id" : "MainFlow",
+							"editor" : "",
 							"wspath" : "<workspace>/KafkaProducerApplication/KafkaProducerFlow.msgflow"
 							}
 						],
