@@ -236,7 +236,7 @@
 							"path": "Transformation_DotNet"
 							}
 						]
-				},
+				},				
 				{
 			       	        "name"          : "Retrieving records from a Salesforce system",
 			                "version"	: "1.0",
