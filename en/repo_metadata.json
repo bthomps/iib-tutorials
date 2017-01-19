@@ -270,7 +270,7 @@
 				     	]
 				},
 				{
-		        	"name"          : "Callable Flows",
+		        	"name"          : "Callible Flows",
 		            	"version"	: "1.0",
 		            	"iibVersions"	: "10.*-11.*",
 		            	"shortDesc"     : "Learn how to split flow processing using CallableFlow nodes (requires IBM Integration Bus v10 fixpack 4 or later).",
