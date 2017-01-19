@@ -256,7 +256,15 @@
 							"id" : "MainFlow",
 							"editor" : "",
 							"wspath" : "<workspace>/KafkaProducerApplication/KafkaProducerFlow.msgflow"
-						}
+						},
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/KafkaConsumerApplication/KafkaConsumerFlow.msgflow"
+						}						
+						
+						
+						
 					],
 			    		"deployedResources" : [
 							{
