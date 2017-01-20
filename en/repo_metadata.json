@@ -244,7 +244,7 @@
 		            		"shortDesc"     : "Learn how to use the KafkaProducer and KafkaConsumer nodes in a message flow (requires IBM Integration Bus v10 fixpack 7 or later).",
 		            		"detailsURL"    : "http://ot4i.github.io/kafka-tutorial/en/details.html",
 		            		"stepsURL"      : "http://ot4i.github.io/kafka-tutorial/en/steps.html",
-					"zipURL" 	: "https://github.com/ot4i/kafka-tutorial/releases/download/V1.0/KafkaTutorial.zip",
+					"zipURL" 	: "https://github.com/ot4i/kafka-tutorial/releases/download/V1.11/KafkaTutorial.zip",
 					"barFile" 	: "",
 					"visible"	: "true",
 					"tags"		: "kafka",
