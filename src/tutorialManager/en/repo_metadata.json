@@ -238,6 +238,38 @@
 						]
 				},
 				{
+		        		"name"          : "Producing and consuming Kafka messages",
+		            		"version"	: "1.0",
+		            		"iibVersions"	: "10.*-11.*",
+		            		"shortDesc"     : "Learn how to use the KafkaProducer and KafkaConsumer nodes in a message flow (requires IBM Integration Bus v10 fixpack 7 or later).",
+		            		"detailsURL"    : "http://ot4i.github.io/kafka-tutorial/en/details.html",
+		            		"stepsURL"      : "http://ot4i.github.io/kafka-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/kafka-tutorial/releases/download/V1.11/KafkaTutorial.zip",
+					"barFile" 	: "",
+					"visible"	: "true",
+					"tags"		: "kafka",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "KafkaProducerApplication:KafkaConsumerApplication",
+					"editorResPaths": [
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/KafkaProducerApplication/KafkaProducerFlow.msgflow"
+						}
+					],
+			    		"deployedResources" : [
+							{
+							"type": "application",
+							"path": "KafkaProducerApplication"
+							},
+							{
+							"type": "application",
+							"path": "KafkaConsumerApplication"
+							}
+					]
+				},												
+				{
 			       	        "name"          : "Retrieving records from a Salesforce system",
 			                "version"	: "1.0",
 			                "iibVersions"	: "10.*-11.*",
@@ -462,7 +494,43 @@
 							}
 						]
 				},
-                        	{
+				{
+		        		"name"          : "Aggregation nodes using MQ transport to back-end services",
+		            		"version"	: "1.0",
+		            		"iibVersions"	: "10.*-11.*",
+		            		"shortDesc"     : "Learn how to use the Aggregation nodes to fan-out and fan-in messages over MQ.",
+		            		"detailsURL"    : "http://ot4i.github.io/aggregation-mq-tutorial/en/details.html",
+		            		"stepsURL"      : "http://ot4i.github.io/aggregation-mq-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/aggregation-mq-tutorial/releases/download/v1.0/AggregationMQTutorial.zip",
+					"barFile" 	: "",
+					"visible"	: "true",
+					"tags"		: "aggregation",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "AggregationMQ:AggregationMQBackend1:AggregationMQBackend2",
+					"editorResPaths": [
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/AggregationMQ/AggregationMQ_FanOut.msgflow"
+						}
+					],
+			    		"deployedResources" : [
+							{
+							"type": "application",
+							"path": "AggregationMQ"
+							},
+							{
+							"type": "application",
+							"path": "AggregationMQBackend1"
+							},
+							{
+							"type": "application",
+							"path": "AggregationMQBackend2"
+							}						
+					]
+				},																
+				{
                                 "name"          : "Modeling CSV data by using DFDL",
                                 "version"	: "1.0",
                                 "iibVersions"	: "10.*-11.*",
