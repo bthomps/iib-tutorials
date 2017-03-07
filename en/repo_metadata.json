@@ -529,7 +529,83 @@
 							"path": "AggregationMQBackend2"
 							}						
 					]
-				},																
+				},
+				{
+		        		"name"          : "Aggregation nodes using SOAP/HTTP transport to back-end services",
+		            		"version"	: "1.0",
+		            		"iibVersions"	: "10.*-11.*",
+		            		"shortDesc"     : "Learn how to use the Aggregation nodes to fan-out and fan-in messages over SOAP/HTTP.",
+		            		"detailsURL"    : "https://ot4i.github.io/aggregation-soapasync-tutorial/en/details.html",
+		            		"stepsURL"      : "https://ot4i.github.io/aggregation-soapasync-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/aggregation-soapasync-tutorial/releases/download/v1.0/AggregationSOAPAsyncTutorial.zip",
+					"barFile" 	: "",
+					"visible"	: "true",
+					"tags"		: "aggregation",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "AggregationSOAPAsync:AggregationSOAPAsyncLib:AggregationSOAPBackend1:AggregationSOAPBackend2",
+					"editorResPaths": [
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/AggregationSOAPAsync/service.descriptor"
+						}
+					],
+			    		"deployedResources" : [
+							{
+							"type": "application",
+							"path": "AggregationSOAPAsync"
+							},						
+							{
+							"type": "library",
+							"path": "AggregationSOAPAsyncLib"
+							},
+							{
+							"type": "application",
+							"path": "AggregationSOAPBackend1"
+							},
+							{
+							"type": "application",
+							"path": "AggregationSOAPBackend2"
+							}						
+					]
+				},				
+				{
+		        		"name"          : "Aggregation nodes using Callable Flows for back-end services",
+		            		"version"	: "1.0",
+		            		"iibVersions"	: "10.*-11.*",
+		            		"shortDesc"     : "Learn how to use the Aggregation nodes to fan-out and fan-in messages using Asynchronous Callable Flows.",
+		            		"detailsURL"    : "https://ot4i.github.io/aggregation-callableasync-tutorial/en/details.html",
+		            		"stepsURL"      : "https://ot4i.github.io/aggregation-callableasync-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/aggregation-callableasync-tutorial/releases/download/v1.0/AggregationCallableAsyncTutorial.zip",
+					"barFile" 	: "",
+					"visible"	: "true",
+					"tags"		: "aggregation",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "AggregationCallableAsync:AggregationCallableAsyncBackend1:AggregationCallableAsyncBackend2",
+					"editorResPaths": [
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/AggregationCallableAsync/getAggregatedResponse.subflow"
+						}
+					],
+			    		"deployedResources" : [
+							{
+							"type": "application",
+							"path": "AggregationCallableAsync"
+							},						
+							{
+							"type": "application",
+							"path": "AggregationCallableAsyncBackend1"
+							},
+							{
+							"type": "application",
+							"path": "AggregationCallableAsyncBackend2"
+							}						
+					]
+				},
 				{
                                 "name"          : "Modeling CSV data by using DFDL",
                                 "version"	: "1.0",
