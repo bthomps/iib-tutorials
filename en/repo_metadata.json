@@ -643,7 +643,7 @@
 					]
 				},
 				{
-		        		"name"          : "Aggregation nodes using CallableFlowAsyncInvoke nodes with back-end services,
+		        		"name"          : "Aggregation nodes using CallableFlowAsyncInvoke nodes with back-end services",
 		            		"version"	: "1.0",
 		            		"iibVersions"	: "10.*-11.*",
 		            		"shortDesc"     : "Learn how to use the Aggregation nodes to fan-out and fan-in messages using asynchronous Callable Flow nodes.",
