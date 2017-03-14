@@ -118,6 +118,70 @@
 					]
 				},								
 				{
+		        		"name"          : "Using Bluemix Product Insights to view IIB Registration and Usage",
+		            		"version"	: "1.0",
+		            		"iibVersions"	: "10.*-11.*",
+		            		"shortDesc"     : "Learn how to use the Product Insights service on Bluemix to get a centralised view of IIB Registration and Usage flow.",
+		            		"detailsURL"    : "https://ot4i.github.io/product-insights-tutorial/en/details.html",
+		            		"stepsURL"      : "https://ot4i.github.io/product-insights-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/product-insights-tutorial/releases/download/v1.0/ProductInsights.zip",
+					"barFile" 	: "",
+					"visible"	: "true",
+					"tags"		: "product-insights",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "ProductInsights1Application:ProductInsights2Application",
+					"editorResPaths": [
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/ProductInsights1Application/Flow.msgflow"
+						}
+					],
+			    		"deployedResources" : [
+							{
+							"type": "application",
+							"path": "ProductInsights1Application"
+							},
+							{
+							"type": "application",
+							"path": "ProductInsights2Application"
+							}
+					]
+				},
+				{
+		        		"name"          : "Using Bluemix Kibana Dashboards to view IIB Logs",
+		            		"version"	: "1.0",
+		            		"iibVersions"	: "10.*-11.*",
+		            		"shortDesc"     : "Learn how to use a Kibana Dashboard on Bluemix to get a centralised view of IIB Logs.",
+		            		"detailsURL"    : "https://ot4i.github.io/bluemix-kibana-tutorial/en/details.html",
+		            		"stepsURL"      : "https://ot4i.github.io/bluemix-kibana-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/bluemix-kibana-tutorial/releases/download/v1.0/BluemixKibana.zip",
+					"barFile" 	: "",
+					"visible"	: "true",
+					"tags"		: "Bluemix",
+					"isPattern"	: "false",
+					"isFavorite"	: "true",
+					"projects"	: "BluemixKibana1Application:BluemixKibana2Application",
+					"editorResPaths": [
+						{
+							"id" : "MainFlow",
+							"editor" : "",
+							"wspath" : "<workspace>/BluemixKibana1Application/Flow.msgflow"
+						}
+					],
+			    		"deployedResources" : [
+							{
+							"type": "application",
+							"path": "BluemixKibana1Application"
+							},
+							{
+							"type": "application",
+							"path": "BluemixKibana2Application"
+							}
+					]
+				},				
+				{
 		        		"name"          : "Aggregation nodes using MQ nodes with back-end services",
 		            		"version"	: "1.0",
 		            		"iibVersions"	: "10.*-11.*",
