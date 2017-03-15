@@ -156,28 +156,24 @@
 		            		"shortDesc"     : "Learn how to use a Kibana Dashboard on Bluemix to get a centralised view of IIB Logs.",
 		            		"detailsURL"    : "https://ot4i.github.io/hybridconnect-logging-tutorial/en/details.html",
 		            		"stepsURL"      : "https://ot4i.github.io/hybridconnect-logging-tutorial/en/steps.html",
-					"zipURL" 	: "https://github.com/ot4i/hybridconnect-logging-tutorial/releases/download/v1.0/ProductInsightsKibanaTutorial.zip",
+					"zipURL" 	: "https://github.com/ot4i/hybridconnect-logging-tutorial/releases/download/v2.0/ProductInsightsKibanaTutorial.zip",
 					"barFile" 	: "",
 					"visible"	: "true",
 					"tags"		: "Bluemix",
 					"isPattern"	: "false",
 					"isFavorite"	: "true",
-					"projects"	: "BluemixKibana1Application:BluemixKibana2Application",
+					"projects"	: "LogMessages",
 					"editorResPaths": [
 						{
 							"id" : "MainFlow",
 							"editor" : "",
-							"wspath" : "<workspace>/BluemixKibana1Application/Flow.msgflow"
+							"wspath" : "<workspace>/LogMessages/LogMessages.msgflow"
 						}
 					],
 			    		"deployedResources" : [
 							{
 							"type": "application",
-							"path": "BluemixKibana1Application"
-							},
-							{
-							"type": "application",
-							"path": "BluemixKibana2Application"
+							"path": "LogMessages"
 							}
 					]
 				},				
