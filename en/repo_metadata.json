@@ -118,13 +118,13 @@
 					]
 				},								
 				{
-		        		"name"          : "Using Bluemix Product Insights to view IIB Registration and Usage",
+		        		"name"          : "Using Bluemix Product Insights to view IBM Integration Bus Startup and Usage",
 		            		"version"	: "1.0",
 		            		"iibVersions"	: "10.*-11.*",
-		            		"shortDesc"     : "Learn how to use the Product Insights service on Bluemix to get a centralised view of IIB Registration and Usage.",
+		            		"shortDesc"     : "Learn how to use the Product Insights service on Bluemix to get a centralized view of IBM Integration Bus Startup and Usage.",
 		            		"detailsURL"    : "https://ot4i.github.io/productinsights-service-tutorial/en/details.html",
 		            		"stepsURL"      : "https://ot4i.github.io/productinsights-service-tutorial/en/steps.html",
-					"zipURL" 	: "https://github.com/ot4i/productinsights-service-tutorial/releases/download/v1.0/ProductInsightsTutorial.zip",
+					"zipURL" 	: "https://github.com/ot4i/productinsights-service-tutorial/releases/download/v2.0/ProductInsightsTutorial.zip",
 					"barFile" 	: "",
 					"visible"	: "true",
 					"tags"		: "product-insights",
