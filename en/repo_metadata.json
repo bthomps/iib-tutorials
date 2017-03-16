@@ -122,30 +122,26 @@
 		            		"version"	: "1.0",
 		            		"iibVersions"	: "10.*-11.*",
 		            		"shortDesc"     : "Learn how to use the Product Insights service on Bluemix to get a centralised view of IIB Registration and Usage.",
-		            		"detailsURL"    : "https://ot4i.github.io/hybridconnect-service-tutorial/en/details.html",
-		            		"stepsURL"      : "https://ot4i.github.io/hybridconnect-service-tutorial/en/steps.html",
-					"zipURL" 	: "https://github.com/ot4i/hybridconnect-service-tutorial/releases/download/v1.0/ProductInsights.zip",
+		            		"detailsURL"    : "https://ot4i.github.io/productinsights-service-tutorial/en/details.html",
+		            		"stepsURL"      : "https://ot4i.github.io/productinsights-service-tutorial/en/steps.html",
+					"zipURL" 	: "https://github.com/ot4i/productinsights-service-tutorial/releases/download/v1.0/ProductInsightsTutorial.zip",
 					"barFile" 	: "",
 					"visible"	: "true",
 					"tags"		: "product-insights",
 					"isPattern"	: "false",
 					"isFavorite"	: "true",
-					"projects"	: "ProductInsights1Application:ProductInsights2Application",
+					"projects"	: "PrimeNumbers",
 					"editorResPaths": [
 						{
 							"id" : "MainFlow",
 							"editor" : "",
-							"wspath" : "<workspace>/ProductInsights1Application/Flow.msgflow"
+							"wspath" : "<workspace>/PrimeNumbers/PrimeNumbers.msgflow"
 						}
 					],
 			    		"deployedResources" : [
 							{
 							"type": "application",
-							"path": "ProductInsights1Application"
-							},
-							{
-							"type": "application",
-							"path": "ProductInsights2Application"
+							"path": "PrimeNumbers"
 							}
 					]
 				},
