@@ -121,7 +121,7 @@
 		        		"name"          : "Using Bluemix Product Insights to view IIB Registration and Usage",
 		            		"version"	: "1.0",
 		            		"iibVersions"	: "10.*-11.*",
-		            		"shortDesc"     : "Learn how to use the Product Insights service on Bluemix to get a centralised view of IIB Registration and Usage flow.",
+		            		"shortDesc"     : "Learn how to use the Product Insights service on Bluemix to get a centralised view of IIB Registration and Usage.",
 		            		"detailsURL"    : "https://ot4i.github.io/hybridconnect-service-tutorial/en/details.html",
 		            		"stepsURL"      : "https://ot4i.github.io/hybridconnect-service-tutorial/en/steps.html",
 					"zipURL" 	: "https://github.com/ot4i/hybridconnect-service-tutorial/releases/download/v1.0/ProductInsights.zip",
