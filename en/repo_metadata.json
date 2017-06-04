@@ -102,7 +102,7 @@
 					]
 				},
 				{
-		        		"name"          : "Using a Resequence node to reorder messages going throguh a flow",					
+		        		"name"          : "Using a Resequence node to reorder messages going through a flow",					
 		            		"version"	: "1.0",
 		            		"iibVersions"	: "10.*-11.*",
 		            		"shortDesc"     : "Learn how to use the Resequence node to control the sequence in which a group of incoming messages are propagated through the message flow.",
