@@ -49,7 +49,7 @@
 		            		"detailsURL"    : "https://ot4i.github.io/wlm-tutorial/en/details.html",
 		            		"stepsURL"      : "https://ot4i.github.io/wlm-tutorial/en/steps.html",
 					"zipURL" 	: "https://github.com/ot4i/wlm-tutorial/releases/download/v1.0-beta.3/WLMTutorialV1.0.zip",
-					"barFile"	: "<workspace>/WorkoadManagementApplication/wlm.bar",
+					"barFile"	: "<workspace>/WorkloadManagementApplication/wlm.bar",
 					"visible"	: "true",
 					"tags"		: "policy",
 					"isPattern"	: "false",
